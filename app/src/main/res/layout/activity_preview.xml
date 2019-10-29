@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".preview" android:background="@drawable/bggradient">
+
+<TextView
+    android:id="@+id/preview_judul"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="91dp"
+    android:layout_marginTop="60dp"
+    android:layout_marginEnd="91dp"
+    android:text="PREVIEW"
+    android:textSize="24sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+
+        android:hint="nama"
+        android:text="Nama"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/preview_judul" />
+
+    <TextView
+        android:id="@+id/alamat"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+
+        android:hint="alamat"
+        android:text="Alamat"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nama" />
+
+    <TextView
+        android:id="@+id/tempatLahir"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+
+        android:hint="tempat lahir"
+        android:text="Tempat Lahir"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alamat" />
+
+    <TextView
+        android:id="@+id/tgl_lahir"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+
+        android:hint="tanggal lahir"
+        android:text="Tanggal Lahir"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tempatLahir" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
